@@ -1,0 +1,4 @@
+[submodule "packages/akashic-book"]
+	path = packages/akashic-book
+	url = git@github.com:JusticHentai/akashic-book.git
+	branch = main
