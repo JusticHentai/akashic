@@ -30,6 +30,7 @@ importers:
 
   packages/akashic-book:
     specifiers:
+      '@justichentai/resize': ^1.0.0
       '@justichentai/scss-utils': ^1.0.1
       '@types/node': ^18.7.14
       '@types/react': ^18.0.18
@@ -43,6 +44,7 @@ importers:
       sass: ^1.54.8
       typescript: ^4.8.2
     dependencies:
+      '@justichentai/resize': 1.0.0
       '@justichentai/scss-utils': 1.0.1
       electron: 20.1.0
       next: 12.2.5_vuxjv6o7qhupugnkyf7vyqsruq
@@ -413,6 +415,10 @@ packages:
       - prettier
       - typescript
     dev: true
+
+  /@justichentai/resize/1.0.0:
+    resolution: {integrity: sha512-ww6PIeCSuhee4SqdRptuh59c69CytnSYxk+i+C9cyG4n+ZooVaM3xj5i07T80ANmjllAr40XIQB9NZQ3B5V/aw==}
+    dev: false
 
   /@justichentai/scss-utils/1.0.1:
     resolution: {integrity: sha512-ikRhIJ2H9NdXThZrLxXPjXz+ttpskzeRFbXG8VCXJ1bB0UMpzRqEZAqV17GXJn6AP+H2wGZAj0QCx6iArTOFCw==}
