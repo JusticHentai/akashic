@@ -10,11 +10,13 @@
   "license": "ISC",
   "author": "justichentai",
   "scripts": {
-    "build": "pnpm turbo build",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
     "lint": "pnpm lint:prettier && pnpm lint:eslint",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --write .",
-    "lint:stylelint": "stylelint \"**/*.(sc|c)ss\""
+    "lint:stylelint": "stylelint \"**/*.(sc|c)ss\"",
+    "test": "turbo run test"
   },
   "devDependencies": {
     "@justichentai/eslint-config": "^1.0.2",

@@ -3,6 +3,7 @@
 # command package
 node_modules
 dist
+build/**
 
 # local env files
 .env.local
@@ -23,5 +24,8 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-# monorepo
-packages/activity-repo
+# turborepo
+.turbo
+
+# next
+.next/**
