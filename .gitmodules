@@ -2,3 +2,7 @@
 	path = packages/akashic-book
 	url = git@github.com:JusticHentai/akashic-book.git
 	branch = main
+[submodule "packages/akashic-components"]
+	path = packages/akashic-components
+	url = https://github.com/JusticHentai/akashic-components
+	branch = main
